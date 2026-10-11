@@ -1,0 +1,45 @@
+# Python Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Node & Frontend dependencies & build
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.log
+
+# Environment variables & local configs
+.env
+.env.local
+.env.*.local
+
+# Databases & local user uploads
+data/*.db
+data/*.db-journal
+data/uploads/*
+!data/uploads/.gitkeep
+data/models/*
+!data/models/.gitkeep
+
+# Operating system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDE & Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
